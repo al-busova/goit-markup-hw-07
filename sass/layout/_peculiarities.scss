@@ -1,0 +1,31 @@
+.peculiarities .wrapper {
+    display: flex;
+  }
+  .peculiarities__item {
+    flex-basis: calc((100% -90px) / 4);
+    margin-right: var(--margin-right-item);
+  }
+  .peculiarities__item:nth-child(4n) {
+    margin-right: 0;
+  }
+  .peculiarities__title {
+    margin-bottom: 10px;
+    color: var(--add-textcolor);
+    font-size: 14px;
+    line-height: 1.143;
+    text-transform: uppercase;
+  }
+  .peculiarities__text {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .peculiarities__thumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    margin-bottom: 30px;
+  }
+  

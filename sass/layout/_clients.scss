@@ -1,0 +1,33 @@
+.list-clients {
+  display: flex;
+}
+.thumb-clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thumb-clients:not(:last-child) {
+  margin-right: var(--margin-right-item);
+}
+.thumb-clients .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  transition: border-color 250ms var(--timing-fun);
+}
+.icon-clients {
+  fill: #afb1b8;
+  transition: fill 250ms var(--timing-fun);
+}
+.thumb-clients .link:hover .icon-clients,
+.thumb-clients .link:focus .icon-clients {
+  fill: var(--akcent-color);
+}
+.thumb-clients .link:hover,
+.thumb-clients .link:focus {
+  border-color: var(--akcent-color);
+}

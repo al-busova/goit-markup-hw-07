@@ -1,0 +1,70 @@
+.bottom-page {
+  background-color: var(--main-bgcolor);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.geoloc-contacts .link {
+  display: block;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  transition: color 250ms var(--timing-fun);
+}
+.geoloc-contacts .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.list .geoloc {
+  color: #ffffff;
+}
+.geoloc-contacts .link:hover,
+.geoloc-contacts .link:focus {
+  color: var(--akcent-color);
+}
+.bottom-page .container {
+  display: flex;
+}
+.appeal-footer {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.left-side-footer {
+  margin-right: 70px;
+}
+.form-footer {
+  margin-top: 12px;
+  margin-left: auto;
+}
+.form-subscribe {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 20px;
+}
+.input-footer {
+  width: 360px;
+  margin-right: 12px;
+  padding: 15px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: var(--main-bgcolor);
+  color: #ffffff;
+
+  transition: border-color 250ms var(--timing-fun);
+}
+.input-footer:hover,
+.input-footer:focus {
+  outline: none;
+  border-color: var(--akcent-color);
+}
+.btn-subscribe {
+  display: flex;
+  align-items: center;
+}
+.icon-send {
+  margin-left: 10px;
+}
