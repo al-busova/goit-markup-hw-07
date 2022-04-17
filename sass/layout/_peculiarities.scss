@@ -4,9 +4,9 @@
   .peculiarities__item {
     flex-basis: calc((100% -90px) / 4);
     margin-right: var(--margin-right-item);
-  }
-  .peculiarities__item:nth-child(4n) {
-    margin-right: 0;
+    &:nth-child(4n) {
+      margin-right: 0;
+    }
   }
   .peculiarities__title {
     margin-bottom: 10px;

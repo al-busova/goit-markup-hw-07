@@ -19,7 +19,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/main.min.css">
-    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="top-page">
@@ -41,14 +40,14 @@
         <ul class="list contacts">
           <li class="contacts__item">
             <a href="mailto:info@devstudio.com" class="link">
-              <svg class="envelope" width="16" height="12">
+              <svg class="contacts__envelope" width="16" height="12">
                 <use href="./images/icons.svg#envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
           <li class="contacts__item">
             <a href="tel:+380961111111" class="link">
-              <svg class="smartphone" width="10" height="16">
+              <svg class="contacts__smartphone" width="10" height="16">
                 <use href="./images/icons.svg#smartphone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -63,7 +62,7 @@
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button type="button" class="btn-order" data-modal-open>
+          <button type="button" class="btn" data-modal-open>
             Заказать услугу
           </button>
         </div>
@@ -127,41 +126,41 @@
       <section class="work">
         <div class="container">
           <h2 class="title-section">Чем мы занимаемся</h2>
-          <ul class="list wrapper">
-            <li class="work-item">
+          <ul class="work__wrapper list">
+            <li class="work__item">
               <a href=""
                 ><img
-                  class="image-work"
+                  class="work__image"
                   src="./images/box1.jpg"
                   alt="Компьютерные приложения"
                   width="370"
               /></a>
-              <div class="wrapper-title-work">
-                <h3 class="title-work">Десктопные приложения</h3>
+              <div class="work__wrapper-title">
+                <h3 class="work__title">Десктопные приложения</h3>
               </div>
             </li>
-            <li class="work-item">
+            <li class="work__item">
               <a href=""
                 ><img
-                  class="image-work"
+                  class="work__image"
                   src="./images/box2.jpg"
                   alt="Мобильные приложения"
                   width="370"
               /></a>
-              <div class="wrapper-title-work">
-                <h3 class="title-work">Мобильные приложения</h3>
+              <div class="work__wrapper-title">
+                <h3 class="work__title">Мобильные приложения</h3>
               </div>
             </li>
-            <li class="work-item">
+            <li class="work__item">
               <a href=""
                 ><img
-                  class="image-work"
+                  class="work__image"
                   src="./images/box3.jpg"
                   alt="Дизайн"
                   width="370"
               /></a>
-              <div class="wrapper-title-work">
-                <h3 class="title-work">Дизайнерские решения</h3>
+              <div class="work__wrapper-title">
+                <h3 class="work__title">Дизайнерские решения</h3>
               </div>
             </li>
           </ul>
@@ -170,17 +169,17 @@
       <section class="workers">
         <div class="container">
           <h2 class="title-section">Наша команда</h2>
-          <ul class="list wrapper">
-            <li class="worker-item">
+          <ul class="workers__wrapper list">
+            <li class="workers__item">
               <img
-                class="img-workers"
+                class="workers__img"
                 src="./images/img1.jpg"
                 alt="Игорь Демьяненко"
                 width="270"
               />
-              <div class="wrapper-dec-worker">
-                <h3 class="worker-name">Игорь Демьяненко</h3>
-                <p lang="en" class="worker-position">Product Designer</p>
+              <div class="dec-worker">
+                <h3 class="dec-worker__name">Игорь Демьяненко</h3>
+                <p lang="en" class="dec-worker__position">Product Designer</p>
                 <ul class="list soc-links">
                   <li class="soc-links__item">
                     <a class="link" href="">
@@ -210,16 +209,16 @@
                 </ul>
               </div>
             </li>
-            <li class="worker-item">
+            <li class="workers__item">
               <img
-                class="img-workers"
+                class="workers__img"
                 src="./images/img2.jpg"
                 alt="Ольга Репинa"
                 width="270"
               />
-              <div class="wrapper-dec-worker">
-                <h3 class="worker-name">Ольга Репина</h3>
-                <p lang="en" class="worker-position">Frontend Developer</p>
+              <div class="dec-worker">
+                <h3 class="dec-worker__name">Ольга Репина</h3>
+                <p lang="en" class="dec-worker__position">Frontend Developer</p>
                 <ul class="list soc-links">
                   <li class="soc-links__item">
                     <a class="link" href="">
@@ -249,16 +248,16 @@
                 </ul>
               </div>
             </li>
-            <li class="worker-item">
+            <li class="workers__item">
               <img
-                class="img-workers"
+                class="workers__img"
                 src="./images/img3.jpg"
                 alt="Николай Тарасов"
                 width="270"
               />
-              <div class="wrapper-dec-worker">
-                <h3 class="worker-name">Николай Тарасов</h3>
-                <p lang="en" class="worker-position">Marketing</p>
+              <div class="dec-worker">
+                <h3 class="dec-worker__name">Николай Тарасов</h3>
+                <p lang="en" class="dec-worker__position">Marketing</p>
                 <ul class="list soc-links">
                   <li class="soc-links__item">
                     <a class="link" href="">
@@ -288,16 +287,16 @@
                 </ul>
               </div>
             </li>
-            <li class="worker-item">
+            <li class="workers__item">
               <img
-                class="img-workers"
+                class="workers__img"
                 src="./images/img4.jpg"
                 alt="Михаил Ермаков"
                 width="270"
               />
-              <div class="wrapper-dec-worker">
-                <h3 class="worker-name">Михаил Ермаков</h3>
-                <p lang="en" class="worker-position">UI Designer</p>
+              <div class="dec-worker">
+                <h3 class="dec-worker__name">Михаил Ермаков</h3>
+                <p lang="en" class="dec-worker__position">UI Designer</p>
                 <ul class="list soc-links">
                   <li class="soc-links__item">
                     <a class="link" href="">
@@ -333,45 +332,45 @@
       <section class="clients">
         <div class="container">
           <h2 class="title-section">Постоянные клиенты</h2>
-          <ul class="list list-clients">
-            <li class="thumb-clients">
+          <ul class="list clients__list">
+            <li class="clients__thumb">
               <a href="" class="link">
-                <svg class="icon-clients" width="41px" height="47px">
+                <svg class="clients__icon" width="41px" height="47px">
                   <use href="./images/icons.svg#company0"></use>
                 </svg>
               </a>
             </li>
-            <li class="thumb-clients">
+            <li class="clients__thumb">
               <a href="" class="link">
-                <svg class="icon-clients" width="40px" height="52px">
+                <svg class="clients__icon" width="40px" height="52px">
                   <use href="./images/icons.svg#company1"></use>
                 </svg>
               </a>
             </li>
-            <li class="thumb-clients">
+            <li class="clients__thumb">
               <a href="" class="link">
-                <svg class="icon-clients" width="43px" height="41px">
+                <svg class="clients__icon" width="43px" height="41px">
                   <use href="./images/icons.svg#company2"></use>
                 </svg>
               </a>
             </li>
-            <li class="thumb-clients">
+            <li class="clients__thumb">
               <a href="" class="link">
-                <svg class="icon-clients" width="84px" height="41px">
+                <svg class="clients__icon" width="84px" height="41px">
                   <use href="./images/icons.svg#company3"></use>
                 </svg>
               </a>
             </li>
-            <li class="thumb-clients">
+            <li class="clients__thumb">
               <a href="" class="link">
-                <svg class="icon-clients" width="63px" height="45px">
+                <svg class="clients__icon" width="63px" height="45px">
                   <use href="./images/icons.svg#company4"></use>
                 </svg>
               </a>
             </li>
-            <li class="thumb-clients">
+            <li class="clients__thumb">
               <a href="" class="link">
-                <svg class="icon-clients" width="94px" height="44px">
+                <svg class="clients__icon" width="94px" height="44px">
                   <use href="./images/icons.svg#company5"></use>
                 </svg>
               </a>
@@ -387,21 +386,21 @@
             ><span class="aсcent-logo">Web</span>Studio</a
           >
           <address class="geoloc-contacts">
-            <ul class="list">
-              <li class="item">
+            <ul class="geoloc-contacts__list list">
+              <li class="geoloc-contacts__item">
                 <a
                   href="https://goo.gl/maps/22c3Fu3iABQrKYj2A"
-                  class="link geoloc"
+                  class="geoloc-contacts__link link geoloc-contacts__link_map"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="item">
-                <a href="mailto:info@devstudio.com" class="link"
+              <li class="geoloc-contacts__item">
+                <a href="mailto:info@devstudio.com" class="geoloc-contacts__link link"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="item">
-                <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+              <li class="geoloc-contacts__item">
+                <a href="tel:+380961111111" class="geoloc-contacts__link link">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
@@ -438,72 +437,71 @@
         </div>
         <div class="form-footer">
           <strong class="appeal-footer">Подпишитесь на рассылку</strong>
-          <form class="form-subscribe">
+          <form class="form-footer__subscribe">
             <label>
-               <input class="input-footer" type="email" name="user-email" placeholder="E-mail">
+               <input class="form-footer__input" type="email" name="user-email" placeholder="E-mail">
             </label>
-            <button class="btn-subscribe" type="submit"> <span>Подписаться</span>  <svg class="icon-send" width="20" height="20">
+            <button class="btn btn_subscribe" type="submit"> <span>Подписаться</span>  <svg class="icon-send" width="20" height="20">
                   <use href="./images/icons.svg#icon-send"></use></svg
               > </button>
-           
           </form>
         </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="btn-close-modal" data-modal-close type="button">
+        <button class="modal__btn-close" data-modal-close type="button">
           <svg class="close-black" width="18" height="18">
             <use href="./images/icons.svg#close-black"></use>
           </svg>
         </button>
         <form class="form-modal">
-          <strong class="modal-appeal">Оставьте свои данные, мы вам перезвоним</strong>
-            <label class="form-label">
+          <strong class="form-modal__appeal">Оставьте свои данные, мы вам перезвоним</strong>
+            <label class="form-modal__label">
               Имя 
-              <span class="form-input-wrapper"> <input
-                class="form-input"
+              <span class="form-modal__input-wrapper"> <input
+                class="form-modal__input"
                 type="text"
                 name="user-name" required
-              /><svg class="icon-modal" width="18" height="18">
+              /><svg class="form-modal__icon" width="18" height="18">
                   <use href="./images/icons.svg#person-black"></use></svg
               ></span>
              </label>
-               <label class="form-label">
+               <label class="form-modal__label">
               Телефон
-              <span class="form-input-wrapper"><input
-                class="form-input"
+              <span class="form-modal__input-wrapper"><input
+                class="form-modal__input"
                 type="tel"
                 name="user-tel" required
-              /><svg class="icon-modal" width="18" height="18">
+              /><svg class="form-modal__icon" width="18" height="18">
                   <use href="./images/icons.svg#phone-black"></use></svg
               > </span>
             </label>
         
-            <label class="form-label">
+            <label class="form-modal__label">
               Почта
-               <span class="form-input-wrapper"><input
-                class="form-input"
+               <span class="form-modal__input-wrapper"><input
+                class="form-modal__input"
                 type="email"
                 name="user-email"
-              /><svg class="icon-modal" width="18" height="18">
+              /><svg class="form-modal__icon" width="18" height="18">
                   <use href="./images/icons.svg#email-black"></use></svg
               > </span>
               </label>
-            <label class="form-label">
+            <label class="form-modal__label">
               Комментарий
               <textarea
-                class="comment"
+                class="form-modal__comment"
                 name="comment"
                 placeholder="Введите текст"
               ></textarea>
             </label>
               <label class="policy">
-              <input class="checkbox-policy visually-hidden" type="checkbox" name="policy" value="policy" required />
-              <span class="custom-checkbox-policy"></span>
-              Соглашаюсь с рассылкой и принимаю&nbsp; <a class="text-agreement" href="">Условия договора</span>
+              <input class="policy__checkbox visually-hidden" type="checkbox" name="policy" value="policy" required />
+              <span class="policy__custom-checkbox"></span>
+              Соглашаюсь с рассылкой и принимаю&nbsp; <a class="policy__text-agreement" href="">Условия договора</span>
             </label>
-          <button class="btn-send" type="submit">Отправить</button>
+          <button class="btn btn_send" type="submit">Отправить</button>
         </form>
       </div>
     </div>

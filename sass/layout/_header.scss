@@ -2,31 +2,22 @@
     /* position: relative; */
     border-bottom: 1px solid rgba(236, 236, 236, 1);
   }
-  /* .top-page::after {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width: inherit;
-    height: 1px;
-    background-color: rgba(236, 236, 236, 1);
-  } */
-  .top-page .container {
+.top-page .container {
     display: flex;
     align-items: center;
   }
-  .navigation__wrapper {
+.navigation__wrapper {
     display: flex;
     margin-right: -50px;
   }
-  .navigation__item {
+.navigation__item {
     margin-right: var(--margin-right-nav);
   }
-  .navigation__item .link {
+.navigation__item .link {
     display: block;
     padding: 32px 0;
   }
-  .navigation__link {
+.navigation__link {
     color: var(--add-textcolor);
   }
   .navigation__link,
@@ -54,30 +45,32 @@
   }
   .contacts .link {
     color: var(--main-textcolor);
+    &:hover,
+    &:focus {
+      color: var(--akcent-color);
+    }
   }
-  .envelope,
-  .smartphone {
+  .contacts__envelope,
+  .contacts__smartphone {
     margin-right: 10px;
     fill: currentColor;
   }
   .navigation .link:hover,
-  .navigation .link:focus,
-  .contacts .link:hover,
-  .contacts .link:focus {
+  .navigation .link:focus {
     color: var(--akcent-color);
   }
-  .navigation .current {
+ .current {
     color: var(--akcent-color);
     position: relative;
-  }
-  .current::after {
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: -1px;
-    width: 100%;
-    height: 4px;
-    background-color: var(--akcent-color);
-    border-radius: 2px;
-    border-color: transparent;
+  &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: -1px;
+      width: 100%;
+      height: 4px;
+      background-color: var(--akcent-color);
+      border-radius: 2px;
+      border-color: transparent;
+    }
   }

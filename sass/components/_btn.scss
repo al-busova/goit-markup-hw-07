@@ -1,6 +1,4 @@
-.btn-order,
-.btn-send,
-.btn-subscribe {
+.btn {
   min-width: 200px;
   padding: 10px 29px;
   color: #ffffff;
@@ -15,12 +13,8 @@
   border-color: transparent;
   border-radius: 4px;
   transition: background-color 250ms var(--timing-fun);
-}
-.btn-order:hover,
-.btn-order:focus,
-.btn-send:hover,
-.btn-send:focus,
-.btn-subscribe:hover,
-.btn-subscribe:focus {
+  &:hover,
+  &:focus {
   background-color: #188ce8;
+  }
 }

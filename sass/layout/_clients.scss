@@ -1,15 +1,15 @@
-.list-clients {
+.clients__list {
   display: flex;
 }
-.thumb-clients {
+.clients__thumb {
   display: flex;
   justify-content: center;
   align-items: center;
+  &:not(:last-child) {
+    margin-right: var(--margin-right-item);
+  }
 }
-.thumb-clients:not(:last-child) {
-  margin-right: var(--margin-right-item);
-}
-.thumb-clients .link {
+.clients__thumb .link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,16 +18,16 @@
   border: 1px solid #afb1b8;
   border-radius: 4px;
   transition: border-color 250ms var(--timing-fun);
+  &:hover,
+  &:focus {
+  border-color: var(--akcent-color);
 }
-.icon-clients {
+}
+.clients__icon {
   fill: #afb1b8;
   transition: fill 250ms var(--timing-fun);
-}
-.thumb-clients .link:hover .icon-clients,
-.thumb-clients .link:focus .icon-clients {
+  .clients__thumb .link:hover &,
+  .clients__thumb .link:focus & {
   fill: var(--akcent-color);
 }
-.thumb-clients .link:hover,
-.thumb-clients .link:focus {
-  border-color: var(--akcent-color);
 }

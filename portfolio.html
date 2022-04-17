@@ -44,14 +44,14 @@
         <ul class="list contacts">
           <li class="contacts__item">
             <a href="mailto:info@devstudio.com" class="link">
-              <svg class="envelope" width="16" height="12">
+              <svg class="contacts__envelope" width="16" height="12">
                 <use href="./images/icons.svg#envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
           <li class="contacts__item">
             <a href="tel:+380961111111" class="link">
-              <svg class="smartphone" width="10" height="16">
+              <svg class="contacts__smartphone" width="10" height="16">
                 <use href="./images/icons.svg#smartphone"></use></svg
               >+38 096 111 11 11</a
             >
@@ -63,29 +63,35 @@
       <section class="portfolio">
         <div class="container">
           <h1 class="visually-hidden">Портфолио</h1>
-          <ul class="list wrapper-btn">
-            <li class="item-filter">
-              <button type="button" class="btn-filter">Все</button>
+          <ul class="list filters-wrapper">
+            <li class="filters-wrapper__item">
+              <button type="button" class="filters-wrapper__btn">Все</button>
             </li>
-            <li class="item-filter">
-              <button type="button" class="btn-filter">Веб-сайты</button>
+            <li class="filters-wrapper__item">
+              <button type="button" class="filters-wrapper__btn">
+                Веб-сайты
+              </button>
             </li>
-            <li class="item-filter">
-              <button type="button" class="btn-filter">Приложения</button>
+            <li class="filters-wrapper__item">
+              <button type="button" class="filters-wrapper__btn">
+                Приложения
+              </button>
             </li>
-            <li class="item-filter">
-              <button type="button" class="btn-filter">Дизайн</button>
+            <li class="filters-wrapper__item">
+              <button type="button" class="filters-wrapper__btn">Дизайн</button>
             </li>
-            <li class="item-filter">
-              <button type="button" class="btn-filter">Маркетинг</button>
+            <li class="filters-wrapper__item">
+              <button type="button" class="filters-wrapper__btn">
+                Маркетинг
+              </button>
             </li>
           </ul>
           <ul class="list wrapper-projects">
-            <li class="item-project">
-              <a href="" class="link-item-project link">
+            <li class="wrapper-projects__item">
+              <a href="" class="wrapper-projects__link link">
                 <div class="box">
                   <img
-                    class="img-project"
+                    class="wrapper-projects__img"
                     src="./images/img-portf/portf1.jpg"
                     alt="Технокряк"
                     width="370"
@@ -96,17 +102,17 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="wrapper-dec-project">
-                  <h2 class="title-project">Технокряк</h2>
-                  <p class="filter-item">Веб-сайт</p>
+                <div class="dec-project">
+                  <h2 class="dec-project__title">Технокряк</h2>
+                  <p class="dec-project__filter-item">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="item-project">
-              <a href="" class="link-item-project link">
+            <li class="wrapper-projects__item">
+              <a href="" class="wrapper-projects__link link">
                 <div class="box">
                   <img
-                    class="img-project"
+                    class="wrapper-projects__img"
                     src="./images/img-portf/portf2.jpg"
                     alt="Постер New Orlean vs Golden Star"
                     width="370"
@@ -117,19 +123,19 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="wrapper-dec-project">
-                  <h2 class="title-project">
+                <div class="dec-project">
+                  <h2 class="dec-project__title">
                     Постер New Orlean vs Golden Star
                   </h2>
-                  <p class="filter-item">Дизайн</p>
+                  <p class="dec-project__filter-item">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="item-project">
-              <a href="" class="link-item-project link">
+            <li class="wrapper-projects__item">
+              <a href="" class="wrapper-projects__link link">
                 <div class="box">
                   <img
-                    class="img-project"
+                    class="wrapper-projects__img"
                     src="./images/img-portf/portf3.jpg"
                     alt="Ресторан Seafood"
                     width="370"
@@ -140,17 +146,17 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="wrapper-dec-project">
-                  <h2 class="title-project">Ресторан Seafood</h2>
-                  <p class="filter-item">Приложение</p>
+                <div class="dec-project">
+                  <h2 class="dec-project__title">Ресторан Seafood</h2>
+                  <p class="dec-project__filter-item">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="item-project">
-              <a href="" class="link-item-project link">
+            <li class="wrapper-projects__item">
+              <a href="" class="wrapper-projects__link link">
                 <div class="box">
                   <img
-                    class="img-project"
+                    class="wrapper-projects__img"
                     src="./images/img-portf/portf4.jpg"
                     alt="Проект Prime"
                     width="370"
@@ -161,17 +167,17 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="wrapper-dec-project">
-                  <h2 class="title-project">Проект Prime</h2>
-                  <p class="filter-item">Маркетинг</p>
+                <div class="dec-project">
+                  <h2 class="dec-project__title">Проект Prime</h2>
+                  <p class="dec-project__filter-item">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="item-project">
-              <a href="" class="link-item-project link">
+            <li class="wrapper-projects__item">
+              <a href="" class="wrapper-projects__link link">
                 <div class="box">
                   <img
-                    class="img-project"
+                    class="wrapper-projects__img"
                     src="./images/img-portf/portf5.jpg"
                     alt="Проект Boxes"
                     width="370"
@@ -182,17 +188,17 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="wrapper-dec-project">
-                  <h2 class="title-project">Проект Boxes</h2>
-                  <p class="filter-item">Приложение</p>
+                <div class="dec-project">
+                  <h2 class="dec-project__title">Проект Boxes</h2>
+                  <p class="dec-project__filter-item">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="item-project">
-              <a href="" class="link-item-project link">
+            <li class="wrapper-projects__item">
+              <a href="" class="wrapper-projects__link link">
                 <div class="box">
                   <img
-                    class="img-project"
+                    class="wrapper-projects__img"
                     src="./images/img-portf/portf6.jpg"
                     alt="Inspiration has no Borders"
                     width="370"
@@ -203,17 +209,17 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="wrapper-dec-project">
-                  <h2 class="title-project">Inspiration has no Borders</h2>
-                  <p class="filter-item">Веб-сайт</p>
+                <div class="dec-project">
+                  <h2 class="dec-project__title">Inspiration has no Borders</h2>
+                  <p class="dec-project__filter-item">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="item-project">
-              <a href="" class="link-item-project link">
+            <li class="wrapper-projects__item">
+              <a href="" class="wrapper-projects__link link">
                 <div class="box">
                   <img
-                    class="img-project"
+                    class="wrapper-projects__img"
                     src="./images/img-portf/portf7.jpg"
                     alt="Издание Limited Edition"
                     width="370"
@@ -224,17 +230,17 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="wrapper-dec-project">
-                  <h2 class="title-project">Издание Limited Edition</h2>
-                  <p class="filter-item">Дизайн</p>
+                <div class="dec-project">
+                  <h2 class="dec-project__title">Издание Limited Edition</h2>
+                  <p class="dec-project__filter-item">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="item-project">
-              <a href="" class="link-item-project link">
+            <li class="wrapper-projects__item">
+              <a href="" class="wrapper-projects__link link">
                 <div class="box">
                   <img
-                    class="img-project"
+                    class="wrapper-projects__img"
                     src="./images/img-portf/portf8.jpg"
                     alt="Проект LAB"
                     width="370"
@@ -245,17 +251,17 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="wrapper-dec-project">
-                  <h2 class="title-project">Проект LAB</h2>
-                  <p class="filter-item">Маркетинг</p>
+                <div class="dec-project">
+                  <h2 class="dec-project__title">Проект LAB</h2>
+                  <p class="dec-project__filter-item">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="item-project">
-              <a href="" class="link-item-project link">
+            <li class="wrapper-projects__item">
+              <a href="" class="wrapper-projects__link link">
                 <div class="box">
                   <img
-                    class="img-project"
+                    class="wrapper-projects__img"
                     src="./images/img-portf/portf9.jpg"
                     alt="Growing Business"
                     width="370"
@@ -266,9 +272,9 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="wrapper-dec-project">
-                  <h2 class="title-project">Growing Business</h2>
-                  <p class="filter-item">Приложение</p>
+                <div class="dec-project">
+                  <h2 class="dec-project__title">Growing Business</h2>
+                  <p class="dec-project__filter-item">Приложение</p>
                 </div>
               </a>
             </li>
@@ -283,21 +289,25 @@
             ><span class="aсcent-logo">Web</span>Studio</a
           >
           <address class="geoloc-contacts">
-            <ul class="list">
-              <li class="item">
+            <ul class="geoloc-contacts__list list">
+              <li class="geoloc-contacts__item">
                 <a
                   href="https://goo.gl/maps/22c3Fu3iABQrKYj2A"
-                  class="link geoloc"
+                  class="geoloc-contacts__link link geoloc-contacts__link_map"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="item">
-                <a href="mailto:info@devstudio.com" class="link"
+              <li class="geoloc-contacts__item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="geoloc-contacts__link link"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="item">
-                <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+              <li class="geoloc-contacts__item">
+                <a href="tel:+380961111111" class="geoloc-contacts__link link"
+                  >+38 096 111 11 11</a
+                >
               </li>
             </ul>
           </address>
@@ -334,16 +344,16 @@
         </div>
         <div class="form-footer">
           <strong class="appeal-footer">Подпишитесь на рассылку</strong>
-          <form class="form-subscribe">
+          <form class="form-footer__subscribe">
             <label>
               <input
-                class="input-footer"
+                class="form-footer__input"
                 type="email"
                 name="user-email"
                 placeholder="E-mail"
               />
             </label>
-            <button class="btn-subscribe" type="submit">
+            <button class="btn btn_subscribe" type="submit">
               <span>Подписаться</span>
               <svg class="icon-send" width="20" height="20">
                 <use href="./images/icons.svg#icon-send"></use>
